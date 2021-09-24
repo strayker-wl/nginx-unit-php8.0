@@ -1,11 +1,11 @@
-#nginx unit php8.0
+# nginx unit php8.0
 
 Completely autonomous docker image with unit-1.25.0 and php8.0 installed.
 Based on ubuntu hirsute.
 
 At build time, the container automatically builds the package unit-php for 8.0 version from source and installs it.
 
-#how to use
+# how to use
 1. Set base image
 2. Install php8.0 modules if you need it
 3. Add nginx-unit config as json file in tmp folder into container
