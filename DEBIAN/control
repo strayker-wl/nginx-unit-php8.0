@@ -1,6 +1,6 @@
 Package: unit-php8.0
-Version: 1.25.0
+Version: 1.26.0
 Architecture: amd64
-Depends: unit (= 1.25.0-1~hirsute), php8.0, libphp8.0-embed
+Depends: unit (= 1.26.0-1~hirsute), php8.0, libphp8.0-embed
 Maintainer: Roman Egorov <strayker.wl@gmail.com>
-Description: Custom PHP 8.0 language module for NGINX Unit 1.25.0
+Description: Custom PHP 8.0 language module for NGINX Unit 1.26.0
