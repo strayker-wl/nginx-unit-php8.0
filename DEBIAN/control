@@ -1,6 +1,6 @@
-Package: unit-php8.0
-Version: 1.26.0
+Package: unit-php{php_version}
+Version: {unit_version}
 Architecture: amd64
-Depends: unit (= 1.26.0-1~hirsute), php8.0, libphp8.0-embed
+Depends: unit (= {unit_version}-1~{ubuntu_release}), php{php_version}, libphp{php_version}-embed
 Maintainer: Roman Egorov <strayker.wl@gmail.com>
-Description: Custom PHP 8.0 language module for NGINX Unit 1.26.0
+Description: Custom PHP {php_version} language module for NGINX Unit {unit_version}
